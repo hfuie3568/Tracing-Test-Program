@@ -1,0 +1,15 @@
+﻿<Window x:Class="Tracing_Test_Program.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tracing_Test_Program"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label x:Name="title" Content="Tracing Test Program" HorizontalAlignment="Left" Margin="91,32,0,0" VerticalAlignment="Top" Height="56" Width="345" FontSize="32" FontWeight="Bold"/>
+        <Button x:Name="button" Content="START" HorizontalAlignment="Left" VerticalAlignment="Top" Width="122" Margin="124,165,0,0" Height="85" FontSize="26.667" Click="button_Click"/>
+        <Button x:Name="how" Content="How to play" HorizontalAlignment="Left" VerticalAlignment="Top" Width="122" Margin="287,165,0,0" Height="85" FontSize="18.667" Click="how_Click"/>
+
+    </Grid>
+</Window>
