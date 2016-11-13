@@ -11,7 +11,7 @@
         <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="20" Margin="14,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="590" TextChanged="textBox_TextChanged"/>
         <Button x:Name="loadbutton" Content="Image Load" HorizontalAlignment="Left" Height="20" Margin="726,10,0,0" VerticalAlignment="Top" Width="82" Click="button_Click" RenderTransformOrigin="-2.015,0.749"/>
         <Image x:Name="grayimage" HorizontalAlignment="Left" Height="472" VerticalAlignment="Top" Width="417" Margin="470,49,0,0"/>
-        <Button x:Name="StartButton" Content="Start" HorizontalAlignment="Left" Margin="824,10,0,0" VerticalAlignment="Top" Width="70" RenderTransformOrigin="0.5,0.5" Click="StartButton_Click" Visibility="Hidden">
+        <Button x:Name="StartButton" Content="Start" HorizontalAlignment="Left" Margin="824,10,0,0" VerticalAlignment="Top" Width="70" RenderTransformOrigin="0.5,0.5" Click="StartButton_Click" Visibility="Visible">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>

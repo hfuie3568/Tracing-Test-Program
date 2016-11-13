@@ -10,7 +10,7 @@
     <Grid>
         <Image x:Name="input" HorizontalAlignment="Left" Height="472" Margin="32,10,0,0" VerticalAlignment="Top" Width="417"/>
 
-        <Canvas  Name="paintSurface" MouseDown="Canvas_MouseDown_1" MouseMove="Canvas_MouseMove_1" Height="472" Width="408" Margin="517,10,0,0" RenderTransformOrigin="0.471,0.518" HorizontalAlignment="Left" VerticalAlignment="Top" >
+        <Canvas  Name="paintSurface" MouseDown="Canvas_MouseDown_1" MouseMove="Canvas_MouseMove_1" Height="472" Width="417" Margin="517,10,0,0" RenderTransformOrigin="0.471,0.518" HorizontalAlignment="Left" VerticalAlignment="Top" >
             <Canvas.Background>
                 <SolidColorBrush Color="White" Opacity="100"/>
             </Canvas.Background>
